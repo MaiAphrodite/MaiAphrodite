@@ -6,7 +6,6 @@
 <img align="right" src="https://github.com/user-attachments/assets/ebe49f4e-4521-4cc0-aec9-120d6f3e894f" alt="Kazusleep" width="18%"/>
 <p>Hi, I'm a student at Tidar University, currently juggling Object Oriented Programming, Big Data, and Computer Networking. If you're curious, I'm also diving into the exciting world of Machine Learning and Reverse Engineering. Not gonna lie, I'm a bit of a tech geek, but I promise I have a life outside my room!</p>
 </div>
-</br>
 <div>
 <h3> Blogs posts </h3>
 <p>See my latest posts: </p>
