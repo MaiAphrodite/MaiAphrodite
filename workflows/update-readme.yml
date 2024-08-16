@@ -18,11 +18,11 @@ jobs:
         sudo apt-get install -y python3-pip
         pip3 install feedparser
 
-    - name: Run script to fetch and update posts
+    - name: Run script to fetch and update posts in README
       run: |
         python3 fetch_posts.py
         git config --global user.name 'github-actions'
         git config --global user.email 'actions@github.com'
-        git add latest_posts.md
-        git commit -m 'Update Medium posts'
+        git add README.md
+        git commit -m 'Update README with latest Medium posts'
         git push
