@@ -9,8 +9,10 @@
 </br>
 <div>
 <h3> Blogs posts </h3>
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<p>See my latest posts: </p>
+  <!--START_SECTION:medium-->
+  <!-- The posts will be automatically inserted here -->
+  <!--END_SECTION:medium-->
 </div>
 <div>
   <h3> Languages and Tools</h3>
