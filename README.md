@@ -25,7 +25,7 @@
   <img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white&link=https%3A%2F%2Fx.com%2FIts_Maiiiiii"/> <img src="https://img.shields.io/badge/Facebook-0866ff?style=flat-square&logo=facebook&logoColor=white&link=https%3A%2F%2Fwww.facebook.com%2Fmai.aphroditee"/> <img src="https://img.shields.io/badge/Instagram-833AB4?style=flat-square&logo=instagram&logoColor=white&link=https%3A%2F%2Fwww.instagram.com%2Fmai_ai__%2F"/>
 </div>
 <div>
-  <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=maiaphrodite&" alt="maiaphrodite" /></p>
-  <p><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=maiaphrodite&show_icons=true&locale=en&layout=compact" alt="maiaphrodite" /></p>
-  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=maiaphrodite&show_icons=true&locale=en" alt="maiaphrodite" />
+  <p><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=maiaphrodite&show_icons=true&locale=en&layout=compact&theme=panda&bg_color=00000000" alt="maiaphrodite" /></p>
+  <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=maiaphrodite&theme=panda&bg_color=00000000" alt="maiaphrodite" /></p>
+  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=maiaphrodite&show_icons=true&locale=en&theme=panda&bg_color=00000000" alt="maiaphrodite" />
 </div>
