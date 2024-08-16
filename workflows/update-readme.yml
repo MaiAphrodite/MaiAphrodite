@@ -1,0 +1,28 @@
+name: Update README with Medium Posts
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Python and dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y python3-pip
+        pip3 install feedparser
+
+    - name: Run script to fetch and update posts
+      run: |
+        python3 fetch_posts.py
+        git config --global user.name 'github-actions'
+        git config --global user.email 'actions@github.com'
+        git add latest_posts.md
+        git commit -m 'Update Medium posts'
+        git push
