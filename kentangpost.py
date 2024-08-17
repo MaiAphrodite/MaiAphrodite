@@ -10,7 +10,8 @@ def fetch_medium_posts(feed_url, num_posts=10):
         title = entry.title
         link = entry.link
         image_url = entry.media_thumbnail[0]['url'] if 'media_thumbnail' in entry else None
-        posts.append((title, link, image_url))
+        summary = entry.summary
+        posts.append((title, link, image_url, summary))
 
     return posts
 
@@ -33,11 +34,15 @@ def update_readme(posts):
 
     # Prepare new content
     new_content = ""
-    for title, link, image_url in posts:
-        new_content += f"- [{title}]({link})\n"
+    for title, link, image_url, summary in posts:
+        new_content += f'<div style="display: flex; align-items: center;">\n'
         if image_url:
-            new_content += f"  ![Post Image]({image_url})\n"
-        new_content += "\n"
+            new_content += f'  <img src="{image_url}" alt="Post Image" style="width: 100px; margin-right: 10px;">\n'
+        new_content += f'  <div>\n'
+        new_content += f'    <a href="{link}" style="font-size: 1.2em; font-weight: bold;">{title}</a>\n'
+        new_content += f'    <p>{summary}</p>\n'
+        new_content += f'  </div>\n'
+        new_content += f'</div>\n\n'
 
     # If markers are found, replace the content in between
     if start_idx is not None and end_idx is not None:
