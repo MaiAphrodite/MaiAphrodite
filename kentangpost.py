@@ -9,6 +9,8 @@ def fetch_medium_posts(feed_url, num_posts=10):
     for entry in feed.entries[:num_posts]:
         title = entry.title
         link = entry.link
+        # Debugging: Print the entry to inspect its structure
+        print(f"Entry: {entry}")
         image_url = entry.media_thumbnail[0]['url'] if 'media_thumbnail' in entry else None
         summary = entry.summary[:200] + '...' if len(entry.summary) > 200 else entry.summary
         posts.append((title, link, image_url, summary))
