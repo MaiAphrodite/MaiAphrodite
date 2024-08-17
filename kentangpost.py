@@ -10,7 +10,7 @@ def fetch_medium_posts(feed_url, num_posts=10):
         title = entry.title
         link = entry.link
         image_url = entry.media_thumbnail[0]['url'] if 'media_thumbnail' in entry else None
-        summary = entry.summary
+        summary = entry.summary[:200] + '...' if len(entry.summary) > 200 else entry.summary
         posts.append((title, link, image_url, summary))
 
     return posts
