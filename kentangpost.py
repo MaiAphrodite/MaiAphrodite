@@ -32,7 +32,7 @@ def update_readme(posts):
             end_idx = idx
 
     # Prepare new content
-    new_content = "## Blogs posts\n\nSee my latest posts:\n\n"
+    new_content = ""
     for title, link, image_url in posts:
         new_content += f"- [{title}]({link})\n"
         if image_url:
