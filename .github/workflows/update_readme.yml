@@ -4,7 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '*/1 * * * *'  # Runs daily at midnight
-
+    
+permissions:
+  contents: write
+  
 jobs:
   update-readme:
     runs-on: ubuntu-latest
