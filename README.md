@@ -15,6 +15,7 @@
 </div>
 <div>
   <h3> Languages and Tools</h3>
+  <p>What i use :</p>
   <img src="https://img.shields.io/badge/Python-ffde57?style=flat&logo=python&logoColor=4584b6)" /> <img src="https://img.shields.io/badge/MySQL-f29111?style=flat&logo=mysql&logoColor=00758f"/>
   <img src="https://img.shields.io/badge/Flutter-042b59?style=flat&logo=flutter&logoColor=027DFD"/>
 </div>
