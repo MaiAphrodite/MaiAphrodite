@@ -1,6 +1,7 @@
 name: Update README with Medium Posts
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/1 * * * *'  # Runs daily at midnight
 
