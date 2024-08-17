@@ -2,7 +2,7 @@ name: Update README with Medium Posts
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+    - cron: '*/1 * * * *'  # Runs daily at midnight
 
 jobs:
   update-readme:
