@@ -10,6 +10,7 @@
 <h3> Blogs posts </h3>
 <p>See my latest posts: </p>
   <!--START_SECTION:medium-->
+- [Test Post](https://medium.com/@roekhan.dani.maulana/test-post-a16e919bb66c?source=rss-2ccd4ade5562------2)
   <!--END_SECTION:medium-->
 </div>
 <div>
