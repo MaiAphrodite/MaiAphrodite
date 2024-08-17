@@ -8,7 +8,7 @@ def fetch_latest_posts(feed_url, num_posts=10):
     return posts
 
 if __name__ == "__main__":
-    feed_url = 'https://medium.com/feed/@yourusername'
+    feed_url = 'https://medium.com/feed/@roekhan.dani.maulana'
     posts = fetch_latest_posts(feed_url)
     
     # Read the existing README content
