@@ -10,7 +10,7 @@
 <h3> Blogs posts </h3>
 <p>See my latest posts: </p>
   <!--START_SECTION:medium-->
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <div>
     <a href="https://medium.com/@roekhan.dani.maulana/test-post-a7b6f834ef3f?source=rss-2ccd4ade5562------2" style="font-size: 1.2em; font-weight: bold;">Test Post</a>
     <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit eleifend lorem, a egestas nunc ultrices et. Vestibulum accumsan ante sed odio lacinia aliquet. Fusce eu feugiat erat. Na...</p>
