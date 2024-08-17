@@ -10,7 +10,6 @@
 <h3> Blogs posts </h3>
 <p>See my latest posts: </p>
   <!--START_SECTION:medium-->
-  <!-- The posts will be automatically inserted here -->
   <!--END_SECTION:medium-->
 </div>
 <div>
