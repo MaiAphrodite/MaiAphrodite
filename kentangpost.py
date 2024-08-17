@@ -35,9 +35,10 @@ def update_readme(posts):
     # Prepare new content
     new_content = ""
     for title, link, image_url, summary in posts:
-        new_content += f'<div style="display: flex; align-items: center;">\n'
+        print(f"Title: {title}, Image URL: {image_url}")  # Debugging print
+        new_content += f'<div style="display: flex; align-items: center; margin-bottom: 20px;">\n'
         if image_url:
-            new_content += f'  <img src="{image_url}" alt="Post Image" style="width: 100px; margin-right: 10px;">\n'
+            new_content += f'  <img src="{image_url}" alt="Post Image" style="width: 100px; height: auto; margin-right: 10px;">\n'
         new_content += f'  <div>\n'
         new_content += f'    <a href="{link}" style="font-size: 1.2em; font-weight: bold;">{title}</a>\n'
         new_content += f'    <p>{summary}</p>\n'
