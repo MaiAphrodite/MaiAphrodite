@@ -18,6 +18,7 @@
 </div>
 
   <!--END_SECTION:medium-->
+  [![Mai Medium](https://github-readme-medium.vercel.app/?username=roekhan.dani.maulana&limit=10)](https://medium.com/@roekhan.dani.maulana)
 </div>
 <div>
   <h3> Languages and Tools</h3>
