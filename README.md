@@ -9,8 +9,10 @@
 <div>
 <h3> Blogs posts </h3>
 <p>See my latest posts: </p>
-[![Mai Medium](https://github-readme-medium.vercel.app/?username=roekhan.dani.maulana&limit=10)](https://medium.com/@roekhan.dani.maulana)
 </div>
+
+[![Mai Medium](https://github-readme-medium.vercel.app/?username=roekhan.dani.maulana&limit=10)](https://medium.com/@roekhan.dani.maulana)
+
 <div>
   <h3> Languages and Tools</h3>
   <p>What i use :</p>
