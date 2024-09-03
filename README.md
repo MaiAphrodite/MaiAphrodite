@@ -11,7 +11,7 @@
 <p>See my latest posts: </p>
 </div>
 
-[![Mai Medium](https://github-readme-medium.vercel.app/?username=maiaphrodite&limit=10)](https://maiaphrodite.medium.com)
+[![Mai Medium](https://github-readme-medium.vercel.app/?username=maiaphrodite&limit=10)](https://medium.com/@maiaphrodite)
 
 <div>
   <h3> Languages and Tools</h3>
